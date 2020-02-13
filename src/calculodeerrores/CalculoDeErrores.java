@@ -5,7 +5,6 @@ import java.math.*;
 import java.text.NumberFormat;
 import javax.swing.JOptionPane;
 public class CalculoDeErrores {
-
     public CalculoDeErrores() {
     }
     public static void main(String args[]) {
@@ -13,7 +12,7 @@ public class CalculoDeErrores {
     Scanner snc = new Scanner(System.in);
     double vA=0, vV=0;
     int opcion, numeroT=0, numeroR=0;
-    System.out.println ("Escriba Valor Aproximado");
+    System.out.println ("ESCRIBA EL VALOR APROXIMADO");
     
     vA=snc.nextDouble();
     System.out.println ("Escriba Valor Verdadero ");
