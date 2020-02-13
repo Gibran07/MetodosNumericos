@@ -14,6 +14,7 @@ public class CalculoDeErrores {
     double vA=0, vV=0;
     int opcion, numeroT=0, numeroR=0;
     System.out.println ("Escriba Valor Aproximado");
+    
     vA=snc.nextDouble();
     System.out.println ("Escriba Valor Verdadero ");
     vV=snc.nextDouble();
